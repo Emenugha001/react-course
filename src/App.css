@@ -1,0 +1,194 @@
+
+/*.dog {
+  border:1px solid red;
+  padding-bottom: 5px;
+}*/
+.goat {
+  position: relative;
+}
+.paragraph {
+  text-align: center;
+}
+
+.icon {
+  position: absolute;
+  z-index: 50;
+  padding-left: 0px;
+  transform: rotate(180deg);
+  width: 30vh;
+}
+
+
+.little {
+  color: #e8eb34;
+}
+
+.login-container {
+  display: flex;
+  gap:3px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  /* height:100vh; */
+  /* width:100%; */
+  /* background-color: #fff; */
+ 
+}
+
+.login-sub-container {
+  display:flex;
+  width:80%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    justify-content: center;
+    justify-items: center;
+  }
+}
+.login-form, .login-form2, .login-info {
+  padding: 40px;
+  width: 50%;
+}
+
+/*.left-image {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}*/
+
+.login-box {
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  width: 900px;
+  height:80vh;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  background-color: #f3f4f6;
+}
+
+@media (max-width: 768px) {
+  .login-box {
+    width:100%;
+  }
+}
+
+.login-box2 {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  width: 900px;
+  height:80vh;
+  background-color:#f3f4f6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.left-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .login-box2 {
+    display: none;
+  }
+}
+
+
+.login-title {
+  color: #e70000; /* Aquila logo color */
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #e5e7eb
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e70000; /* Aquila logo color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color: #cc0000;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 10px;
+  color: #e8eb34;
+  text-align: center;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.step {
+  color:#b9b2b2;
+  text-align:justify;
+}
+
+/* Right Side */
+.login-info {
+  text-align: center;
+  display:flex;
+  flex:left;
+}
+
+.illustration {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.signup-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-link {
+  color: #e69800; /* Color for Sign Up Now */
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+.text-content {
+  display: flex;
+  text-align: center;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #f0f0f0;
+  margin-bottom: 1.5rem;
+}
